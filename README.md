@@ -8,7 +8,7 @@ A demonstration repository showcasing GitHub Actions CI/CD with Discord notifica
 - ✅ Automated deployment workflow for main/master branch
 - 🧪 Runs tests and builds the application
 - 💬 Sends Discord notifications on successful production deployments
-- 🚀 Creates GitHub deployments with name "Production-{commit_id}"
+- 🚀 Creates GitHub deployments with name "Production"
 
 ## Workflows
 
@@ -76,7 +76,7 @@ demo-deployment/
 4. **Run tests** - Executes test suite
 5. **Build application** - Builds the application
 6. **Discord notification** - Sends deployment notification to Discord (on success)
-7. **Create GitHub deployment** - Creates a deployment record with name "Production-{commit_id}"
+7. **Create GitHub deployment** - Creates a deployment record with name "Production"
 
 ## Testing Locally
 
@@ -109,7 +109,7 @@ When code is merged to the main branch, the Discord bot sends a rich embed messa
 ## GitHub Deployment
 
 Each successful production deployment creates a GitHub deployment with:
-- Environment name: `Production-{short_commit_sha}`
+- Environment name: `Production`
 - Status: Success
 - Description: Deployment details
 
