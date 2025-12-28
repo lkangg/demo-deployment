@@ -4,7 +4,7 @@ const app = require('./index.js');
 console.log('Running tests...');
 
 // Test 1: Basic greeting
-const result = app.greet('Worlsd');
+const result = app.greet('World');
 if (result === 'Hello, World!') {
   console.log('✓ Test 1 passed: Greeting works correctly');
 } else {
